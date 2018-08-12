@@ -25,6 +25,7 @@ sudo dpkg -i mysql-apt-config_0.8.1-1_all.deb
 Update
 
 sudo apt-get install mysql-server
+sudo apt install php-mysql mysql-common
 mysql --version
 
 echo "-- Restarting MySQL Server --"
